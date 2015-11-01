@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="peersim-doclet">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/peersim-doclet.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
