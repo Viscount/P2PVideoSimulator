@@ -22,4 +22,20 @@ public class DataHolder extends SingleValueHolder implements EDProtocol {
     public void processEvent(Node node, int pid, Object event) {
 
     }
+
+    public TrackerTable getTracker() {
+        return tracker;
+    }
+
+    public void setTracker(TrackerTable tracker) {
+        this.tracker = tracker;
+    }
+
+    public RequestWindow getRequestWindow() {
+        return requestWindow;
+    }
+
+    public void setRequestWindow(RequestWindow requestWindow) {
+        this.requestWindow = requestWindow;
+    }
 }

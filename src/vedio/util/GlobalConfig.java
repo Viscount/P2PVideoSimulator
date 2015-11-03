@@ -9,5 +9,7 @@ import java.util.List;
 public class GlobalConfig {
 
     public static final List<Long> TRACKER_POOL = new ArrayList<Long>(0);
+    public static final long ACK_MESSAGE_SIZE = 1;
+    public static final int MAX_PEER_NUMBER = 20;
 
 }
